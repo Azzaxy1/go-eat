@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" variant="light" type="light" class="fixed-top">
+  <b-navbar toggleable="lg" variant="light" type="light" class="sticky-top">
     <div class="container">
       <div class="d-flex">
         <b-navbar-brand href="/" class="mt-2 fs-3 fw-semibold"
