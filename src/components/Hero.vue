@@ -2,12 +2,12 @@
   <div class="row vh-100">
     <div class="col-md-6 order-2 order-md-1 d-flex justify-content-center flex-column">
       <h2>
-        <strong>Delicious Food Menu, </strong> <br />
+        <strong class="text-success">Delicious Food Menu, </strong> <br />
         in Your Gadget
       </h2>
       <p>Ayo segera pilih dan pesan makanan favorit anda</p>
       <router-link
-        to="/pesan"
+        to="/foods"
         class="btn w-25 d-sm-flex justify-content-sm-center flex-column flex-md-row btn-success"
       >
         Pesan

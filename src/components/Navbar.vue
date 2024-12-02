@@ -20,18 +20,18 @@
             </b-nav-item>
             <b-nav-item>
               <router-link
-                to="/about"
+                to="/foods"
                 class="nav-link"
-                :class="{ 'text-success fw-bold': isActive('/about') }"
-                >About</router-link
+                :class="{ 'text-success fw-bold': isActive('/foods') }"
+                >Daftar Makanan</router-link
               >
             </b-nav-item>
             <b-nav-item>
               <router-link
-                to="/foods"
+                to="/about-us"
                 class="nav-link"
-                :class="{ 'text-success fw-bold': isActive('/foods') }"
-                >Order Makanan</router-link
+                :class="{ 'text-success fw-bold': isActive('/about-us') }"
+                >Tentang Kami</router-link
               >
             </b-nav-item>
           </b-navbar-nav>
